@@ -43,8 +43,9 @@ nav .nav-right-section img{
     margin-left: 10px;
 }
 main{
-    margin-top: 150px;
+    margin-top: 70px;
     text-align: center;
+    
 }
 main .main-logo{
     width: 530px;
@@ -86,6 +87,7 @@ main .main-input .search-icon{
     background-size: contain;
     width: 18px;
     height: 18px;
+    margin-right: 15px;
 }
 main .main-input .micro-icon{
     background-image: url(' https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
@@ -96,3 +98,61 @@ main .main-input .micro-icon{
     height: 25px;
     cursor: pointer;
 }
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+    
+
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
+
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
