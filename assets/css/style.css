@@ -1,3 +1,13 @@
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+img{
+    width: 100%;
+}
 body{
     margin: 0;
     padding: 0;
@@ -155,4 +165,8 @@ footer ul li a{
     margin: 10px;
     color: #5f6368;
 }
+.profile{
+    width: 50%;
+}
+
 
